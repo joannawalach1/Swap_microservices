@@ -12,3 +12,11 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
+
+keycloak:
+  realm: Pharmacy
+  auth-server-url: http://localhost:8080
+  resource: login-app
+  public-client: true
+  bearer-only: true
+

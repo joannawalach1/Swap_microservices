@@ -7,6 +7,7 @@ import pl.com.great.swap.exception.EntityNotFoundException;
 import pl.com.great.swap.service.PharmacyService;
 
 @RestController
+@RequestMapping("/pharmacy")
 public class PharmacyController {
 
     @Autowired

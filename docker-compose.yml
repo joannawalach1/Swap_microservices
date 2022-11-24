@@ -27,14 +27,17 @@ services:
      - KC_HOSTNAME=localhost
      - KEYCLOAK_ADMIN=admin
      - KEYCLOAK_ADMIN_PASSWORD=admin
+     - KEYCLOAK_IMPORT=/tmp/realm-export.json
     volumes:
       - keycloak-data:/var/lib/keycloak/data
+      - ./src/main/resources/realm-export.json:/tmp/realm-export.json
     depends_on:
       - postgres
     command:
       -  start-dev
     networks:
       - great
+
 
   postgres:
     image: postgres
@@ -48,6 +51,7 @@ services:
       - PGDATA=keycloak
     networks:
       - great
+
 
   mongo:
     image: mongo

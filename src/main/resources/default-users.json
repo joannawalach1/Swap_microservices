@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "username": "mikolaj",
+      "enabled": true,
+      "email": "",
+      "firstName": "Mikolaj",
+      "lastName": "",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "mikolaj"
+        }
+      ],
+      "realmRoles": [
+        "user"
+      ],
+      "clientRoles": {
+        "account": [
+          "view-profile",
+          "manage-account"
+        ]
+      }
+    },
+    {
+      "username": "pawel",
+      "enabled": true,
+      "email": "",
+      "firstName": "Pawel",
+      "lastName": "",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "pawel"
+        }
+      ],
+      "realmRoles": [
+        "user"
+      ],
+      "clientRoles": {
+        "account": [
+          "view-profile",
+          "manage-account"
+        ]
+      }
+    },
+    {
+      "username": "maciek",
+      "enabled": true,
+      "email": "",
+      "firstName": "Maciek",
+      "lastName": "",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "maciek"
+        }
+      ],
+      "realmRoles": [
+        "user"
+      ],
+      "clientRoles": {
+        "account": [
+          "view-profile",
+          "manage-account"
+        ]
+      }
+    },
+    {
+      "username": "bartek",
+      "enabled": true,
+      "email": "",
+      "firstName": "Bartek",
+      "lastName": "",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "bartek"
+        }
+      ],
+      "realmRoles": [
+        "user"
+      ],
+      "clientRoles": {
+        "account": [
+          "view-profile",
+          "manage-account"
+        ]
+      }
+    },
+    {
+      "username": "boro",
+      "enabled": true,
+      "email": "",
+      "firstName": "Boro",
+      "lastName": "",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "boro"
+        }
+      ],
+      "realmRoles": [
+        "user"
+      ],
+      "clientRoles": {
+        "account": [
+          "view-profile",
+          "manage-account"
+        ]
+      }
+    }
+  ]
+}
